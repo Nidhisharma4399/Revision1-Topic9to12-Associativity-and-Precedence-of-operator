@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="/index1_Variable .html" rel="script"></a>
+    <a href="/index2_Types of Variable.html" rel="script"></a>
+    <a href="/index3_VariableConvention.html" rel="script"></a>
+    <style></style>
+    <script></script>
+</head>
+<body>
+   
+    <script>
+
+        //Function in js 
+        //Function Name always in (pascalCase)
+        //Functions is a block of code designed to perform a particular task repeatedly.
+        //1.Function definition
+        function myStudent(Fname,Lname){//(FormalArgumt1, FormalArgmt2....)
+             return name= Fname+Lname; //here + is a concatenation operator
+        };
+        //2.Function Calling/Invocation
+        myStudent("Nidhi ","Sharma");//(ActualArgumnt1,ActualArgumnt2...)
+             console.log(name);
+        //Nidhi Sharma
+        
+
+
+        //Old Method Of Function definition
+        //function functionName(){} 
+        //1.Function definition
+        function addMyNumbers(num1,num2){ //(FormalArgumt1, FormalArgmt2....)
+             return sum=num1+num2;
+        };
+        //2.Function Calling/Invocation
+        addMyNumbers(23,43);//(ActualArgumnt1,ActualArgumnt2...)
+             console.log(`Sum of num1 & num2 = ${sum}`); //string interpolation in ``
+        //66
+
+
+        //The New Method of function defination is by Fat Arrow ()=>{}
+        //let functionName=()=>{}
+        //1.Function definition
+        let getMultiply=(num3,num4)=>{ //(FormalArgumt1, FormalArgmt2....)
+        //Formal Argument Passes Parameters 
+             return multiply=num4*num3;
+        };
+        //2.Function Calling/Invocation
+        getMultiply(55,2);//(ActualArgumnt1,ActualArgumnt2...)
+        //In actual argument er can pass Values, objects,object property,object methods(),arrays,functionc,strings & numbers.
+             console.log(`Multiply of num3 & num4 = ${multiply}`); //string interpolation in ``
+        //110
+
+
+
+    
+    </script>
+</body>
+</html>
